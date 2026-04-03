@@ -1,0 +1,27 @@
+name: remotion-complete
+display_name: "Remotion Complete"
+description: "Complete Remotion MCP server. Render programmatic videos on Lambda, manage compositions, track progress, and deploy sites — all from your AI assistant."
+tagline: "Stop writing render scripts by hand."
+version: 1
+runtime: typescript
+env:
+  - name: AWS_ACCESS_KEY_ID
+    description: AWS access key for Lambda rendering
+    required: true
+  - name: AWS_SECRET_ACCESS_KEY
+    description: AWS secret key
+    required: true
+  - name: AWS_REGION
+    description: AWS region (e.g., us-east-1)
+    required: true
+  - name: REMOTION_SITE_NAME
+    description: Remotion Lambda site name
+    required: false
+tags:
+  - remotion
+  - video-rendering
+  - programmatic-video
+  - lambda
+  - aws
+  - content-creation
+  - automation
