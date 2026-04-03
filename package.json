@@ -1,7 +1,7 @@
 {
   "name": "remotion-complete",
   "version": "1.0.0",
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },

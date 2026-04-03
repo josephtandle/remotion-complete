@@ -3,7 +3,7 @@ display_name: "Remotion Complete"
 description: "Complete Remotion MCP server. Render programmatic videos on Lambda, manage compositions, track progress, and deploy sites — all from your AI assistant."
 tagline: "Stop writing render scripts by hand."
 version: 1
-runtime: typescript
+runtime: node
 env:
   - name: AWS_ACCESS_KEY_ID
     description: AWS access key for Lambda rendering
